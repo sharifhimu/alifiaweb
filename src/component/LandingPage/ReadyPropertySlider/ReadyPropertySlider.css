@@ -1,0 +1,98 @@
+@media(min-width: 1200px){
+    .slider-container{
+        max-width: 1400px;
+    }
+}
+
+
+
+.ready-property-bg{
+    margin: 5rem 0;
+}
+
+
+.headertext{
+    font-family: 'Merriweather', serif;
+  
+    color:#CCBB8F;
+}
+
+.headerparagraph{
+    font-family: 'Montserrat', sans-serif;
+    color: #404040;
+    
+}
+
+.slidersize{
+    width: 80% !important;
+}
+
+
+.singlecard{
+    /* width: 20rem !important; */
+    /* margin: 0 3rem !important;    */
+    
+    height: 35rem;
+    align-items: flex-start ;
+    justify-content: flex-end;
+
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-position: center;
+    cursor: pointer;
+    margin: 2em 0;
+    transition: .5s;
+}
+
+.img1{
+    background-image: linear-gradient(to top, rgba(0,0,0,.5), rgba(0,0,0,0)),  url(../../../image/ready1.png);
+
+}
+
+.img2{
+    background-image: linear-gradient(to top, rgba(0,0,0,.5), rgba(0,0,0,0)), url(../../../image/ready2.png);
+}
+
+.img3{
+    background-image: linear-gradient(to top, rgba(0,0,0,.5), rgba(0,0,0,0)), url(../../../image/ready3.png);
+}
+
+.singlecard:hover{
+    background-size: 35rem;
+    
+}
+
+.borderdown{
+    /* margin: 2em 0 0 16px; */
+    border: 2px solid rgba(0,0,0,.3);
+    width: 7em;
+    transition: .2s;
+}
+
+.singlecard:hover + .borderdown{
+    border:2px solid #FFE9B1 !important;
+    width: 8em;
+  
+}
+
+.textimage {
+    margin: 10px 15px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    text-align: start;
+    font-size: 40px !important;
+    
+
+}
+
+@media(max-width: 600px){
+   
+  
+    .singlecard{
+       
+        height: 30rem;
+    }
+    .slider-container{
+        max-width: 355px;
+    }
+} 

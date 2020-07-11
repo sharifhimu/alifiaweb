@@ -1,0 +1,230 @@
+/* @media(min-width: 1200px){
+    .searchcontainer{
+        max-width: 1400px;
+    }
+}
+
+
+
+
+.searchuptext {
+    display: flex;
+}
+
+.searchuptext h1{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #ccbb8f;
+}
+
+.searchuptext2{
+    margin: 10px 0 70px 0 ;
+    display: flex;
+    justify-content: space-between;
+}
+.searchuptext2 h3{
+    float: left;
+    font-family: 'Merriweather', serif;
+    color: #808080;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.searchuptext2 a{
+    display: flex;
+}
+
+.homelink{
+    display: flex;
+    align-items: center;
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+.homelink a{
+    color: black;
+    text-decoration: none;
+}
+ */
+
+
+
+/* .select-container{
+    position: relative;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.05), -5px -5px 10px #FFFFFF;
+
+}
+
+.select-container select {
+    width: 100%;
+    border: 1px solid black;
+    background: transparent;
+    font-size: 16px;
+    padding: 7px 35px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.05), -5px -5px 10px #FFFFFF;
+
+    outline: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  }
+
+  .select-container select option[data-default]{
+      color: #666;
+      background-color: #666;
+  }
+
+  @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+  .select-container:after {
+    content: 'keyboard_arrow_down';
+    font-family: 'material icons';
+    font-size: 24px;
+    color: #666;
+    position: absolute;
+   
+    left: 10px;
+    top: 55%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+
+
+  
+.country{
+    display: none;
+} */
+
+
+/* 
+.arrow{
+    color: rgba(0,0,0,.5);
+    font-size: 15px;
+    margin: 0 10px;
+}
+
+.propertybtn {
+    background-color: transparent;
+    color: rgba(0,0,0,.5);
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 16px 100px 16px 16px;
+    font-size: 12px;
+    border: 1px solid #FFE9B1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all .2s;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.05), -5px -5px 10px #FFFFFF;
+  }
+  
+ 
+  .propertydropdowns {
+    position: relative;
+    display: inline-block;
+    
+    transition: all .2s;
+  }
+  
+ 
+  .propertydropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #FFE9B1;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.05), -5px -5px 10px #FFFFFF;
+    min-width: 16em;
+   
+    z-index: 1;
+   
+    transition: all .2s;
+  }
+  
+  
+  .propertydropdown a {
+    color: rgba(0,0,0,.5);
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .2s;
+    font-weight: 600;
+    border-bottom: 1px solid #FFE9B1;
+  }
+  
+  
+  .propertydropdown a:hover {
+      background-color: #ccbb8f;
+      color: white;
+      transition: all .2s;
+    
+    }
+  
+ 
+  .propertydropdowns:hover .propertydropdown {
+    display: block;
+    transition: all .2s;
+  }
+  
+  
+  .propertydropdowns:hover .propertybtn {
+  
+    transition: all .2s;
+  } */
+/* 
+  .searchbtn{
+    background: #FFE9B1;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.05), -5px -5px 10px #FFFFFF;
+    border: 0;
+    font-size: 15px;
+    padding: 14px 31px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    color: rgba(0,0,0,.8);
+    transition: .5s;
+  }
+
+  .searchbtn:hover{
+      background-color: #ccbb8f;
+  } */
+
+
+/*   
+ @media(max-width: 375px){
+     .propertybtn{
+         font-size: 9px;
+         padding:3px;
+         letter-spacing: 1px;
+     }
+     .arrow{
+         font-size: 8px;
+         margin: 0 2px;
+        
+     }
+     .propertydropdown{
+         min-width: 5.3rem;
+     }
+     .propertydropdown a{
+         font-size: 10px;
+         padding: 5px 5px;
+     }
+ }
+
+ @media(max-width: 375px){
+    
+    .propertydropdowns-btn{
+        font-size: 10px !important;
+    }
+    .propertydropdowns-toggle::after{
+        margin-left: .5em;
+        font-size: 10px;
+    }
+
+    .searchbtn{
+        font-size: 7px;
+        padding: 8px 10px;;
+    }
+} */

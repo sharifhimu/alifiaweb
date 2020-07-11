@@ -1,0 +1,115 @@
+@media(min-width: 1200px){
+    .address-section-container{
+        /* max-width: 1400px; */
+    }
+}
+
+.address-section-bg{
+    background: rgba(0, 0, 0, 0.75);
+    padding: 50px 0;
+    
+}
+
+.alifiapart p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 13px;
+    /* font-weight: 800; */
+}
+.alifiapart{
+    text-align: left;
+}
+
+.alifiapart img{
+    margin: 0 0 25px 0;
+    height: 70px;
+    width: 70px;
+}
+
+.addresstext{
+    display: block;
+    text-align: left;
+    margin-bottom: 1.5em;
+}
+.addresstext h6{
+    font-family: 'Merriweather', serif;
+    color: #FFE9B1;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.addresstext p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 13px;
+    /* font-weight: 800; */
+}
+
+.emailsection input{
+    width: 15em;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 8px 10px;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+.emailsection button{
+    border: 0;
+    background-color: white;
+    font-size: 10px;
+    padding: 8px 11px;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 1);
+    letter-spacing: 1px;
+    /* opacity: 0.75; */
+    font-family: 'Merriweather', serif;
+    transition: .5s;
+}
+
+.emailsection button:hover{
+                background-color: #FFE9B1;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.icons a{
+   
+    color: white;
+    padding: 0 20px 0 0;
+
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+}
+
+.icons a:hover{
+    transform: scale(1.2);
+}
+
+
+
+@media(max-width: 600px){
+    .alifiapart{
+        text-align: center;
+    }
+    .addresstext{
+        text-align: center;
+    }
+  .emailsection{
+      display: flex;
+      justify-content: center;
+      
+  }
+  .emailsection input{
+      text-align: center;
+  }
+  .emailsection button{
+      width: 11em;
+  }
+  .icons{
+      display: block;
+  }
+}

@@ -1,0 +1,84 @@
+.letsheader{
+    font-family: 'Merriweather', serif;
+    /* font-size: 2rem; */
+    color:#CCBB8F;
+    margin: 2em 0 2em 0;
+
+}
+
+.text{
+    margin: 0 0 5em 0;
+}
+
+.lets-speak-card{
+    text-align: start;
+    border: 0;
+    margin: 0 2em 2em 0;
+}
+
+.lets-speak-card a{
+    text-decoration: none;
+}
+
+.lets-speak-img{
+    transition: all .2s ease;
+}
+
+.lets-speak-img:hover{
+    transform: scale(1.1);
+}
+
+.lets-speak-card:hover .lets-speak-img{
+    transform: scale(1.1);
+}
+
+.title{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color:#CCBB8F;
+    letter-spacing: 2px;
+}
+
+.lets-speak-text{
+    font-family: 'Montserrat', sans-serif;
+    color: #404040;
+    font-size: 14px;
+    /* padding: 5px 0; */
+    line-height: 200%;
+    text-align: justify;
+    /* font-weight: 900; */
+}
+
+.imgborder{
+    margin: 2em 0 2em 0;
+    border: 2px solid #FFE9B1;
+    width: 7em;
+}
+
+.contactbtn{
+    margin: 5em 0;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Merriweather', serif;
+    padding: 10px 20px;
+    color:#CCBB8F;
+    border: 2px solid #CCBB8F;
+    text-decoration: none;
+    background-color: white;
+    transition: .2s;
+}
+
+.contactbtn:hover{
+    background-color: #CCBB8F;
+    color: rgba(0,0,0,.5);
+    /* border: 0; */
+    
+}
+
+@media(max-width: 600px){
+    .speaksection{
+        display: inline-block;
+    }
+}

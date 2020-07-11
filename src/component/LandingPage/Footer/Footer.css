@@ -1,0 +1,28 @@
+.footertext{
+    display: flex;
+    justify-content: center;
+    color: #FFE9B1;
+}
+
+.footertext2{
+    display: flex;
+    justify-content: center;
+    color: #FFE9B1;
+}
+
+
+.footerbg{
+     background-color: #808080;
+     padding-top: 10px;
+
+}
+
+@media(max-width: 600px){
+    .footertext{
+        display: grid;
+        width: 100%;
+    }
+    .footerbg{
+            /* width: 119%; */
+    }
+}

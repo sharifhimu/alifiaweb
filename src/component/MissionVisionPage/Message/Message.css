@@ -1,0 +1,137 @@
+@media(min-width: 1200px){
+    .mission-container{
+        /* max-width: 1400px; */
+    }
+}
+
+.message-bg{
+    background-color: rgba(204,187,143,.2); 
+     padding: 5rem 0;
+     margin: 3em 0 0 0;
+}
+
+.missiontext{
+    text-align: left;
+}
+
+.missiontext h1{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: #CCBB8F;
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+.missiontext p{
+    font-weight: 500;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.missiontext p ul{
+    padding: 0 0 0 10px;
+}
+
+.mailicon{
+    font-size: 30px;
+    color: #CCBB8F;
+    margin: 30px 0 0 0;
+}
+
+.msgcard{
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.05);
+    border: 1px solid #FFE9B1;
+    align-items: center;
+    outline: none;
+}
+
+.msgtitle{
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color:#CCBB8F;
+    font-weight: bold;
+}
+
+.msgbtm{
+    padding: 0px;
+    width: 84%;
+    margin: 24px 0px;
+
+}
+
+.msggroup{
+    text-align: center;
+    margin: 0 0 0 0;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: #CCBB8F;
+    font-weight: bold;
+    
+}
+
+.msgform{
+    font-weight: 500;
+    border: 1px solid #FFE9B1;
+    box-sizing: border-box;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02), inset 5px 5px 5px rgba(0, 0, 0, 0.05), inset -5px -5px 5px #FFFFFF; */
+
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 20px 0 20px 19px ;
+    font-size: 15px;
+    /* font-weight: 400; */
+    line-height: 1.5;
+    color: #BFBFBF;
+    background-color: #fff;
+    background-clip: padding-box;
+    /* border: 1px solid #ced4da; */
+    border-radius: .25rem;
+    /* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;     */
+    outline: none;
+}
+
+.msgarea{
+    width: 100%;
+    border: 1px solid #FFE9B1;
+    display: block;
+    font-weight: 500;
+    padding: .375rem 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    outline: none;
+}
+
+
+
+
+
+
+.sendmsgbtn{
+    background-color: #FFE9B1;
+    border: 0;
+    font-size: 14px;
+    padding: 13px 19px;
+    font-family: 'Merriweather', serif;
+    letter-spacing: 0.05em;
+    font-weight: 900;
+    width: 100%;
+    margin: 15px 0 0 0;
+    /* opacity: 0.75; */
+    transition: .2s ease;
+}
+
+.sendmsgbtn:hover{
+    background-color: #CCBB8F;
+}
+
+
+@media(max-width: 600px){
+   
+    .sendmsgbtn{
+        font-size: 15px;
+        /* padding: 5px 9px; */
+    }
+}

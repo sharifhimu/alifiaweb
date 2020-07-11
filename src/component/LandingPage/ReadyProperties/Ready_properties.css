@@ -1,0 +1,129 @@
+/* 
+.ready-property-bg{
+    margin: 5rem 0;
+}
+
+.ready-property-row{
+    justify-content: center;
+}
+
+.headertext{
+    font-family: 'Merriweather', serif;
+  
+    color:#CCBB8F;
+}
+
+.headerparagraph{
+    font-family: 'Montserrat', sans-serif;
+    color: #404040;
+    
+}
+
+.borderdown{
+   
+    border: 2px solid rgba(0,0,0,.3);
+    width: 7em;
+    transition: .2s;
+}
+
+.colwidth{
+   
+}
+
+.singlecard{
+   
+    height: 35rem;
+    align-items: flex-start ;
+    justify-content: flex-end;
+
+    background-repeat: no-repeat;
+    background-size: 30rem;
+    background-position: center;
+    cursor: pointer;
+    margin: 2em 0;
+    transition: .5s;
+}
+
+.img1{
+    background-image: linear-gradient(to top, rgba(0,0,0,.5), rgba(0,0,0,0)),  url(../../../image/ready1.png);
+
+}
+
+.img2{
+    background-image: linear-gradient(to top, rgba(0,0,0,.5), rgba(0,0,0,0)), url(../../../image/ready2.png);
+}
+
+.img3{
+    background-image: linear-gradient(to top, rgba(0,0,0,.5), rgba(0,0,0,0)), url(../../../image/ready3.png);
+}
+
+.singlecard:hover{
+    background-size: 35rem;
+    
+}
+
+.singlecard:hover + .borderdown{
+    border:2px solid #FFE9B1 !important;
+    width: 8em;
+  
+}
+
+.textimage {
+    margin: 10px 15px;
+    color: white;
+    font-family: 'Merriweather', serif;
+    text-align: start;
+    font-size: 40px !important;
+    
+
+}
+
+
+.cardgrp{
+  
+    justify-content: center;
+}
+
+.lastrow{
+    display: none;
+}
+
+@media(max-width: 600px){
+    .cardgrp{
+        margin: 2rem 9rem 9rem 2rem;
+    }
+    .col3{
+        display: none;
+    }
+    .textimage {
+        font-size: 20px !important;
+    }
+    .lastrow{
+        display: flex;
+    }
+}
+
+@media(max-width: 800px){
+    .textimage p{
+       
+    }
+}
+
+
+@media(max-width: 575px){
+    
+}
+
+
+
+@media(max-width: 600px){
+   
+    .cardgrp{
+        margin: 2rem 9rem 9rem 7rem;
+    }
+    .singlecard{
+       
+        height: 20rem;
+    }
+} 
+ */

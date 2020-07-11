@@ -1,0 +1,46 @@
+.highvalue{
+    margin: 9rem 0 0 0;
+}
+
+.bgtext{
+    position: relative;
+    text-align: start;
+}
+
+.bgtext h1{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    padding: 40px 84px 40px 0;
+   
+    font-family: 'Merriweather', serif;
+    color: #CCBB8F;
+    margin: 20px 0 0 0;
+}
+
+.bgtextp{
+    margin: 200px 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    color: #404040;
+
+
+}
+
+
+@media(max-width: 600px){
+
+    .bgtext h1{
+        font-size: 25px;
+        padding: 40px 20px 20px 0;
+    }
+    .bgtextp{
+        margin: 140px 0 0 0;
+    }
+
+    .highvalue{
+        margin: 0;
+}
+}
+
