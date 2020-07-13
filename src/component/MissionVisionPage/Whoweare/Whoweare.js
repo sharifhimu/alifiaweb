@@ -17,7 +17,7 @@ export default function Whoweare() {
                     <p > Alifia Properties Limited has been working for the development of both urban 
                         and its adjacent areas since 2006. We have a great reputation for our quality
                          apartment and commercial complex construction in Dhaka city particularly in
-                          remarkable areas.<br/>
+                          remarkable areas.<br/><br/>
 
                           Our reputation is built on providing best-in-class services to our clients, 
                           and successfully completing projects on time and within stipulated budgets. 

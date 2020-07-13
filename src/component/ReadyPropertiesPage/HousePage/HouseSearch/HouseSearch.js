@@ -55,7 +55,7 @@ export default class SearchCustom extends React.Component{
                 <div className="searchuptext2">
                  <h3> Listings </h3>  
                  <div className="homelink"> 
-                <a href={`${base_url}/`}>  Home </a> <MdKeyboardArrowRight  style={{ fontSize: '22px', color: 'rgba(0,0,0,.5)' }}  /> <a href={`${base_url}/land`} style={{ color: 'rgba(0,0,0,.5)' }}> Land </a>
+                <a href={`${base_url}/`}>  Home </a> <MdKeyboardArrowRight  style={{ fontSize: '22px', color: 'rgba(0,0,0,.5)' }}  /> <a href={`${base_url}/house`} style={{ color: 'rgba(0,0,0,.5)' }}> House </a>
                 </div>
                 </div>
 
