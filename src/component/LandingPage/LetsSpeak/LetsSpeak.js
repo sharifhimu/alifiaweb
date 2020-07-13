@@ -42,7 +42,7 @@ export default function LetsSpeak() {
           })}
         </CardDeck>
 
-        <button className="contactbtn"> Contact Us </button>
+         <a href={`${base_url}/contactpage`}> <button  className="contactbtn"> Contact Us </button>  </a>
       </Container>
     </div>
   );

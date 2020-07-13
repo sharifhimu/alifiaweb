@@ -4,6 +4,8 @@ import './Carouselpart.css';
 import {IoIosArrowDown} from 'react-icons/io';
 // import img1 from '../../../image/bg1.png';
 
+import {base_url} from '../../../config';
+
 export default function Carouselpart(  ) {
     return (
         <div className="bg" >
@@ -25,11 +27,11 @@ export default function Carouselpart(  ) {
 
                 {/* <Row>    */}
                      
-                     <div className="dropdown">
+                     <div className="dropdown"> 
                      <button className="dropbtn">Explore Properties <IoIosArrowDown className="fa" /> </button>
                      <div className="dropdown-content">
-                         <a href="/">Townhouse Villa</a>
-                         <a href="/">Keraniganj Model Town</a>
+                         <a href={`${base_url}/singleproperty`} >Townhouse Villa</a>
+                         <a href={`${base_url}/singleproperty`} >Keraniganj Model Town</a>
                          
                      </div>
                      </div>
