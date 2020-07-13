@@ -30,7 +30,7 @@ export default class SearchCustom extends React.Component{
            
           ],
 
-          defaultPlotText: "Land Size",
+          defaultPlotText: "Plot Size",
           SizeList: [
             { id: 1, name: "3200 SQ FT" },
             { id: 2, name: "2.5 to 10 (Khata)" },

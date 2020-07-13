@@ -16,9 +16,9 @@ export default class SearchCustom extends React.Component{
           showList: false,
           defaultPropertyText: "Property Type",
           PropertyList: [
-            { id: 1, name: "Land" },
-            { id: 2, name: "Apartment" },
-            { id: 3, name: "House" },
+           
+            { id: 1, name: "Apartment" },
+            { id: 2, name: "House" },
            
           ],
           
@@ -48,7 +48,7 @@ export default class SearchCustom extends React.Component{
                 <Container className="searchcontainer">
 
                 <div className="searchuptext">
-                <h1>All Properties</h1>
+                <h1>All Property</h1>
                 
                 </div>
 

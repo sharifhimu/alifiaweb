@@ -21,7 +21,7 @@ export default function Carouselpart(  ) {
 
                 {/* <Row > */}
                 
-                <h1> Make your <br/> Next Address < br/> Close To Your Heart </h1>
+                <h1> Make Your <br/> Next Address < br/> Close To Your Heart </h1>
 
                 {/* </Row> */}
 
