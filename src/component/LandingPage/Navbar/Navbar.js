@@ -57,17 +57,62 @@ export default class NavBar extends React.Component {
                   className="nav-link"
                   to={`${base_url}/land`}
                 >
-                  <p> Land </p>{" "}
+                  <p> Land </p>
                 </NavLink>
                 
-                <NavLink
+                {/* <NavLink
                   exact
                   activeClassName="active"
-                  className="nav-link"
+                  className=""
+                  to={`${base_url}/property`}
+                > */}
+
+                  <NavLink
+                  exact
+                  activeClassName="active"
+                  className="nav-link property-section1"
                   to={`${base_url}/property`}
                 >
                   <p> PROPERTY </p>
                 </NavLink>
+                  
+                  <div className="nav-link property-section2">
+                    <button className="property-dropbtn"> <p> PROPERTY </p> </button>
+                    <div className="property-dropdown-content">
+                    <a href={`${base_url}/apartment`}> Apartment </a>
+                    <a href={`${base_url}/house`}> House </a>
+                    <a href={`${base_url}/property`}> All </a>
+                    </div>
+                  </div>
+
+
+                {/* </NavLink> */}
+
+
+                <NavLink
+                  exact
+                  activeClassName="active"
+                  className="nav-link mobile-responsive"
+                  to={`${base_url}/Apartment`}
+                >
+                   <p> Apartment </p>
+
+                </NavLink>
+
+                  <NavLink
+                  exact
+                  activeClassName="active"
+                  className="nav-link mobile-responsive"
+                  to={`${base_url}/house`}
+                >
+                   <p> House </p>
+
+                </NavLink>
+
+               
+            
+
+
               </Nav>
 
               <Navbar.Brand className="brandlarge" href={`${base_url}/`}>
@@ -106,91 +151,7 @@ export default class NavBar extends React.Component {
           </Navbar>
         </nav>
 
-        {/* <Navbar sticky="top" collapseOnSelect expand="sm" variant="dark" >
-            
-            <Navbar.Brand className="brandsmall" href="#home">
-                    <img
-                     src={logo}
-                     width="80"
-                     height="80"
-                     className="d-inline-block align-top"
-                     alt="React Bootstrap logo"
-                 />
-
-                </Navbar.Brand>
-
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-center">
-                
-          
-
-                <Nav>
-                <Nav.Link href="#home">LAND</Nav.Link>
-                <Nav.Link href="#features">APARTMENTS</Nav.Link>
-               
-                </Nav>
-               
-                <Navbar.Brand className="brandlarge" href="#home">
-                    <img
-                     src={logo}
-                     width="80"
-                     height="80"
-                     className="d-inline-block align-top"
-                     alt="React Bootstrap logo"
-                 />
-
-                </Navbar.Brand>
-
-                <Nav>
-                <Nav.Link href="#home">BUSINESS</Nav.Link>
-                <Nav.Link href="#features">CONTACT</Nav.Link>
-               
-                </Nav>
-
-               
-
-            </Navbar.Collapse>
-            </Navbar> */}
-
-        {/* <Container>
-
-            <div className="bg-inside" >
-
-                <Row>
-                
-                <h1>Make your <br/> next address <br/> close to your hurt...</h1>
-
-                </Row>  */}
-
-        {/* <Dropdown>
-                <Dropdown.Toggle variant="" className="dropdown-btn" id="dropdown-basic">
-                    Explore Properties
-                </Dropdown.Toggle>
-
-                <Dropdown.Menu>
-                    <Dropdown.Item href="#/action-1">Property 1</Dropdown.Item>
-                    <Dropdown.Item href="#/action-2">Property 2</Dropdown.Item>
-                    <Dropdown.Item href="#/action-3">Property 3</Dropdown.Item>
-                </Dropdown.Menu>
-                </Dropdown>  */}
-
-        {/* <Row>   
-                     
-                <div className="dropdown">
-                <button className="dropbtn">Explore Properties <i class="fa fa-angle-down"></i></button>
-                <div className="dropdown-content">
-                    <a href="/">Property 1</a>
-                    <a href="/">Property 2</a>
-                    <a href="/">Property 3</a>
-                </div>
-                </div>
-
-               
-
-                </Row>
-                
-    
-                </div> */}
+        
         {/* </Container>  */}
       </div>
     );

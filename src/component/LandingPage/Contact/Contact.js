@@ -3,6 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 import './Contact.css';
 
+import { base_url } from "../../../config";
+
 export default function Contact() {
     return (
         <div className="contactbg">
@@ -13,6 +15,8 @@ export default function Contact() {
                     </Col>
 
                     <Col xs={10} lg={5} md={6} className="contact-col" >
+
+                        <a href={`${base_url}/contactpage`}>
 
                         <h1 className="contacttitle">Contact Us</h1>
 
@@ -41,6 +45,8 @@ export default function Contact() {
                         </li>
 
                     </ul>
+
+                    </a>
 
                     </Col>
                 </Row>

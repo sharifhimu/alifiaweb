@@ -141,6 +141,7 @@
     display: flex;
      justify-content: center;
      align-items: flex-start;
+    
   }
 
   .searchbtn{
@@ -175,5 +176,8 @@
       .searchbtn{
         font-size: 7px;
         padding: 8px 10px;;
+    }
+    .searchcustom-searchbtn{
+      margin-top: 10px;
     }
   }

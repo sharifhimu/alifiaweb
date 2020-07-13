@@ -3,7 +3,7 @@ import { Card, Container, Row, Col } from "react-bootstrap";
 
 import "./Ready_properties.css";
 
-
+import { base_url } from "../config";
 
 export default function ReadyProperties() {
 
@@ -21,8 +21,9 @@ export default function ReadyProperties() {
         <Row className="ready-property-row">
 
           <Col className="">
+          <a href={`${base_url}/singleproperty`} style={{ textDecoration: "none" }}>
             <div>
-              <a href="/" style={{ textDecoration: "none" }}>
+             
                 <Card className="singlecard img1">
                   <Card.Text className="textimage"> 
                     Modern <br /> Apartment <br /> Condos
@@ -30,8 +31,9 @@ export default function ReadyProperties() {
                 </Card>
 
                 <div className="borderdown"></div>
-              </a>
+             
             </div>
+            </a>
           </Col>
 
           <Col className="">

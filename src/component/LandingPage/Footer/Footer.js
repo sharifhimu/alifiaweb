@@ -14,11 +14,11 @@ export default function Footer() {
             
             </div>
 
-            <div className="footertext2" >
+            {/* <div className="footertext2" >
             <p> We Are Open &nbsp;&nbsp;</p>
             <p> Get To Know Us  </p>
             
-            </div>
+            </div> */}
 
             </Container>
         </div>

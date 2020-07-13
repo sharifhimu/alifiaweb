@@ -22,9 +22,11 @@
     margin-bottom: 1em;
 }
 .missiontext p{
-    font-weight: 500;
-    font-size: 15px;
-    text-align: justify;
+    /* font-weight: 600; */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: left;
+    color: #404040;
 }
 
 .missiontext p ul{

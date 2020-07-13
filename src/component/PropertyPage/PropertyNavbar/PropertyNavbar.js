@@ -50,18 +50,52 @@ export default class PropertyNavBar extends React.Component {
                   exact
                   activeClassName="active"
                   className="nav-link"
-                  to={`${base_url}/`}
+                  to={`${base_url}/land`}
                 >
                   <p> Land </p>{" "}
                 </NavLink>
+
                 <NavLink
                   exact
                   activeClassName="active"
-                  className="nav-link"
+                  className="nav-link  property-section1"
                   to={`${base_url}/property`}
                 >
                   <p> PROPERTY </p>
                 </NavLink>
+
+
+                <div className="nav-link property-section2">
+                    <button className="property-dropbtn"> <p> PROPERTY </p> </button>
+                    <div className="property-dropdown-content">
+                    <a href={`${base_url}/apartment`}> Apartment </a>
+                    <a href={`${base_url}/house`}> House </a>
+                    <a href={`${base_url}/property`}> All </a>
+                    </div>
+                  </div>
+
+
+
+                <NavLink
+                  exact
+                  activeClassName="active"
+                  className="nav-link mobile-responsive"
+                  to={`${base_url}/Apartment`}
+                >
+                   <p> Apartment </p>
+
+                </NavLink>
+
+                <NavLink
+                  exact
+                  activeClassName="active"
+                  className="nav-link mobile-responsive"
+                  to={`${base_url}/house`}
+                >
+                   <p> House </p>
+
+                </NavLink>
+
               </Nav>
 
               <Navbar.Brand className="brandlarge" href={`${base_url}/`}>

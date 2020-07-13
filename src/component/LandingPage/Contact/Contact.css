@@ -2,6 +2,7 @@
     font-family: 'Merriweather', serif;
     color:#CCBB8F;
     margin: 1em 0 0 0;
+    transition: .2s;
 }
 
 .contactbg{
@@ -19,6 +20,16 @@
     background-color: white;
     margin: 3em 0 0 0; 
     padding: 0 0 2em 0; 
+}
+
+.contact-col a{
+    text-decoration: none;
+}
+
+.contact-col a:hover .contacttitle{
+    color: #404040;
+
+
 }
 
 .contact-ul{

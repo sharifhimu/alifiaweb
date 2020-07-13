@@ -19,7 +19,7 @@ export default function Carouselpart(  ) {
 
                 {/* <Row > */}
                 
-                <h1> Make your <br/> Next Address < br/> Close to your Heart </h1>
+                <h1> Make your <br/> Next Address < br/> Close To Your Heart </h1>
 
                 {/* </Row> */}
 
@@ -28,9 +28,9 @@ export default function Carouselpart(  ) {
                      <div className="dropdown">
                      <button className="dropbtn">Explore Properties <IoIosArrowDown className="fa" /> </button>
                      <div className="dropdown-content">
-                         <a href="/">Property 1</a>
-                         <a href="/">Property 2</a>
-                         <a href="/">Property 3</a>
+                         <a href="/">Townhouse Villa</a>
+                         <a href="/">Keraniganj Model Town</a>
+                         
                      </div>
                      </div>
      

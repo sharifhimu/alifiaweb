@@ -57,7 +57,7 @@ export default function ImageShower() {
 
 
 
-                                    <img className={infoImage.id === currentImage.id ? "active template":"template"}
+                                    <img className={infoImage.id === currentImage.id ? "active-template template":"template"}
                                         src={infoImage.img}
                                         alt="1"
                                         onClick={() => { showImage(infoImage.imgname, infoImage.id); }}

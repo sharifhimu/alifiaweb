@@ -34,7 +34,7 @@ export default function Carouselpart(  ) {
 
                 {/* <Row style={{ justifyContent: 'center' }}> */}
                 
-                <h1> Get in touch with Alifia Properties Limited </h1>
+                <h1> Get In Touch With Alifia Properties Limited </h1>
 
                 {/* </Row> */}
 

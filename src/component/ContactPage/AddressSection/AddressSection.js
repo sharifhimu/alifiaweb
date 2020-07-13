@@ -20,11 +20,10 @@ export default function AddressSection() {
                 
                     <img src={alifia} alt="alifia-logo" />
                     
-                    <p> Alifia Properties Limited is working for the<br/>
-                    development both in urban and its adjacent <br/>
-                    areas. It has thereputation in the quality<br/>
-                    apartment and commercial complex construction<br/>
-                    in the Dhaka city particularly in remarkable areas.  </p>
+                    <p> Alifia Properties Ltd. is a fast growing quality<br /> construction
+                         and developer company in Dhaka,<br/> executing with the ambition of
+                          creating breathable <br/> apartments and superbly planned townships.  </p>
+
                     
                 </Col>
 
@@ -44,7 +43,7 @@ export default function AddressSection() {
                 </Row>  
 
                 <Row className="addresstext">
-                <h6>We are open</h6>
+                <h6>We Are Open</h6>
                 <p>Mon-sat: 10 AM-8 PM</p>    
                 </Row>  
 
@@ -52,7 +51,7 @@ export default function AddressSection() {
 
                 <Col  xs={12} sm={12} md={6} lg={3}>
                 <Row className="addresstext">
-                    <h6>Get to know Us</h6>
+                    <h6>Get To know Us</h6>
                 </Row>
 
                 <Row className="emailsection">

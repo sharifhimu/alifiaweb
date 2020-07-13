@@ -63,7 +63,7 @@ export default function ReadyPropertySlider() {
          
          
           <div className="slidersize">
-              <a href={`${base_url}/`} style={{ textDecoration: "none" }}>
+              <a href={`${base_url}/apartment`} style={{ textDecoration: "none" }}>
                 <Card className="singlecard img1">
                   <Card.Text className="textimage"> 
                     Modern <br /> Apartment <br /> Condos
@@ -77,7 +77,7 @@ export default function ReadyPropertySlider() {
           
          
           <div className="slidersize">
-          <a href={`${base_url}/`} style={{ textDecoration: "none" }}>
+          <a href={`${base_url}/land`} style={{ textDecoration: "none" }}>
                 <Card className="singlecard img2">
                   <Card.Text className="textimage">
                     High
@@ -91,7 +91,7 @@ export default function ReadyPropertySlider() {
 
         
           <div className="slidersize">
-           <a href={`${base_url}/`} style={{ textDecoration: "none" }}>
+           <a href={`${base_url}/house`} style={{ textDecoration: "none" }}>
                 <Card className="singlecard img3 ">
                   <Card.Text className="textimage">
                     Luxury

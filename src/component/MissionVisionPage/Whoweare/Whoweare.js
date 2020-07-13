@@ -14,22 +14,19 @@ export default function Whoweare() {
                     <h1 >Who We Are</h1>
                     
                            
-                    <p > Alifia Properties Limited is working for the development of both
-                         urban and its adjacent areas. We have a great reputation for our 
-                         quality apartment and commercial complex construction in Dhaka 
-                         city particularly in remarkable areas.<br/>
-                         Alifia Properties Limited was formed in 2006 and operates to 
-                         address the ever increasing housing needs of the citizens in Dhaka.
-                          It involves building commercial edifices to private residential 
-                          construction and refurbishment. Alifia Properties Ltd.is the name 
-                          of a belief that has already marked its success as one of the exclusive Real Estate 
-                         companies in the perspective of Real Estate production in Bangladesh.<br/>
+                    <p > Alifia Properties Limited has been working for the development of both urban 
+                        and its adjacent areas since 2006. We have a great reputation for our quality
+                         apartment and commercial complex construction in Dhaka city particularly in
+                          remarkable areas.<br/>
 
-                         Our reputation is built on providing best-in-class services to our clients,
-                          and successfully completing projects on time and within stipulated budgets.
-                           Accomplished and valued client's pleasure is its motto. Employing one of 
-                           the largest teams of expert professionals helps us ensure an unmatched 
-                           level of customer care, build quality and safety during construction.<br/><br/>
+                          Our reputation is built on providing best-in-class services to our clients, 
+                          and successfully completing projects on time and within stipulated budgets. 
+                          Accomplished and valued client's pleasure is its motto. Employing one of the 
+                          largest teams of expert professionals helps us ensure an unmatched level of 
+                          customer care, build quality and safety during construction.<br/><br/>
+
+
+                         
 
                         Activities:
                         <ul>
