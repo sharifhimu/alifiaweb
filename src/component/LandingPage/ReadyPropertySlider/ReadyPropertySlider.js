@@ -8,7 +8,9 @@ import Slider from "react-slick";
 
 import { base_url } from "../../../config";
 
-export default function ReadyPropertySlider() {
+// export default function ReadyPropertySlider() {
+  export default class ReadyPropertySlider extends React.Component{
+    render(){
 
     var settings = {
         dots: true,
@@ -55,9 +57,11 @@ export default function ReadyPropertySlider() {
       <p className="headerparagraph">Ready for Construction, Ready for Life</p>
       </div>
 
+     
+     
       <Container className="slider-container">
 
-<Slider {...settings}>
+      <Slider {...settings}>
 
        
          
@@ -104,13 +108,16 @@ export default function ReadyPropertySlider() {
         
 
         
-          
-        </Slider>
-
+          </Slider>
+       
         </Container>
+       
+
             
         </div>
 
 
     )
 }
+
+  }
