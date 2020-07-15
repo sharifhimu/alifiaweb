@@ -5,15 +5,15 @@ import PropertyNavbar from '../component/PropertyPage/PropertyNavbar/PropertyNav
 
 import AddressSection from '../component/ContactPage/AddressSection/AddressSection';
 import Footer from '../component/LandingPage/Footer/Footer';
-import ApartmentCard from '../component/ReadyPropertiesPage/ApartmentPage/ApartmentCard/ApartmentCard';
-import HousePagination from '../component/ReadyPropertiesPage/HousePage/HousePagination/HousePagination';
+import HouseCard from '../component/ReadyPropertiesPage/HousePage/HouseCard/HouseCard';
+// import HousePagination from '../component/ReadyPropertiesPage/HousePage/HousePagination/HousePagination';
 import HouseSearch from '../component/ReadyPropertiesPage/HousePage/HouseSearch/HouseSearch';
 
 const LandPage = () => {
 
     useEffect(() => {
 
-        document.title = 'Properties' ;
+        document.title = 'House' ;
         window.scrollTo(0,0);
         
     }, [])
@@ -22,8 +22,8 @@ const LandPage = () => {
         <div>
              <PropertyNavbar />
             <HouseSearch />
-             <ApartmentCard />
-             <HousePagination />
+             <HouseCard />
+             {/* <HousePagination /> */}
            <AddressSection />
            <Footer />
         </div>

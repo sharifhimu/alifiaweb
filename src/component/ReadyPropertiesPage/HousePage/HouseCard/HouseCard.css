@@ -1,0 +1,128 @@
+@media(min-width: 1200px){
+    .containersize{
+        /* max-width: 1400px; */
+    }
+}
+
+.propertycard-bg{
+    margin: 5rem 0 1rem 0;
+}
+
+.propertycard-row{
+    display: flex; 
+    justify-content: center;
+}
+
+.propertycard-col{
+    display: flex; 
+    justify-content: center;
+     margin-bottom: 4em;
+}
+
+.fullcard{
+    width: 25rem;
+    border: 1px solid #ffe9b1;
+    transition: .2s;
+}
+
+.fullcard a{
+    text-decoration: none;
+
+}
+
+.house-image{
+    height: 15em;
+}
+
+.fullcard:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+}
+
+.propertycard-imgoverlay{
+    display: flex;
+     justify-content: flex-end;
+     padding: 0;
+}
+
+.cardtitle{
+    background-color: #404040;
+    align-self: flex-start;
+    padding: 6px 15px;
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.cardbelow{
+    text-align: start;
+    z-index: 1;
+    padding: 0 0 50px 0;
+}
+
+.viewdetails a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    
+    
+}
+
+.viewdetails{
+    cursor: pointer;
+    background-color: #ccbb8f;
+    padding: 6px 20px;
+    /* z-index: 200; */
+    transition: .2s;
+}
+
+.viewdetails:hover {
+            background-color: #A39572;
+}
+
+.propertydetails{
+    padding: 6px 20px;
+}
+
+.propertydetails .card-title{
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    letter-spacing: .5px;
+    font-weight: 900;
+    color: rgba(0,0,0,.8);
+}
+
+.propertydetails .card-text{
+    color: #ccbb8f;
+    display: flex; 
+    align-items: center;
+}
+
+
+.propertydetails .card-text p{
+    margin: 0;
+}
+
+
+
+@media(max-width: 600px){
+    .fullcard{
+        /* width: 15rem; */
+    }
+    .cardbelow{
+        padding: 0 0 20px 0;
+    }
+    .cardtitle{
+        font-size: 10px;
+    }
+    .propertydetails .card-text p{
+        font-size: 10px;
+    }
+} 

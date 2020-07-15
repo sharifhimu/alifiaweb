@@ -34,6 +34,10 @@
     box-shadow: 0 0 20px rgba(0,0,0,.2);
 }
 
+.card-image{
+    height: 15em;
+}
+
 .propertycard-imgoverlay{
     display: flex;
      justify-content: flex-end;

@@ -32,7 +32,7 @@ export default function PropertyCard() {
 
                     <a href={`${base_url}/singleproperty`} >
 
-                    <Card.Img variant="top" key={info[i].img} src={info[i].img} />
+                    <Card.Img className="card-image" key={info[i].img} src={info[i].img} />
                     <Card.ImgOverlay className="propertycard-imgoverlay">
                         <Card.Title className="cardtitle">{info[i].insidetitle}</Card.Title>
                     </Card.ImgOverlay>

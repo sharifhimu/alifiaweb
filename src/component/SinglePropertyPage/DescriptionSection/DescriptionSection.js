@@ -27,14 +27,12 @@ export default function DescriptionSection() {
                 <Col lg={5} sm={12} className="description-text">
                 
                 <h1>Description</h1>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Nemo repellendus a tempore aperiam esse qui totam explicabo
-                      quam velit, eveniet aspernatur quibusdam,
-                     amet aliquid ea magni. Iure fugiat voluptatem assumenda? 
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Nemo repellendus a tempore aperiam esse qui totam explicabo
-                      quam velit, eveniet aspernatur quibusdam,
-                     amet aliquid ea magni. Iure fugiat voluptatem assumenda? 
+                <p> A satellite township on 100-acre land on 120 feet wide Dhaka
+                     – Mawa Highway at Keraniganj that delivers the exhilaration
+                      of cosmopolitan life and provides the serenity of a suburb.
+                       It will be green planned urbanization comprising 1000 housing
+                        plots with all civic Dhaka, the capital city of Bangladesh, is
+                         estimated to receive 40% of all urban migration.
                      
                      </p>
 

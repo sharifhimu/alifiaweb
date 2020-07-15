@@ -6,14 +6,14 @@ import PropertyNavbar from '../component/PropertyPage/PropertyNavbar/PropertyNav
 import AddressSection from '../component/ContactPage/AddressSection/AddressSection';
 import Footer from '../component/LandingPage/Footer/Footer';
 import LandCard from '../component/ReadyPropertiesPage/LandPage/LandCard/LandCard';
-import LandPagination from '../component/ReadyPropertiesPage/LandPage/LandPagination/LandPagination';
+// import LandPagination from '../component/ReadyPropertiesPage/LandPage/LandPagination/LandPagination';
 import LandSearch from '../component/ReadyPropertiesPage/LandPage/LandSearch/LandSearch';
 
 const LandPage = () => {
 
     useEffect(() => {
 
-        document.title = 'Properties' ;
+        document.title = 'Land' ;
         window.scrollTo(0,0);
         
     }, [])
@@ -23,7 +23,7 @@ const LandPage = () => {
              <PropertyNavbar />
              <LandSearch />
              <LandCard />
-             <LandPagination />
+             {/* <LandPagination /> */}
            <AddressSection />
            <Footer />
         </div>

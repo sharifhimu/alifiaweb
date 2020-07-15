@@ -67,19 +67,19 @@ export default class NavBar extends React.Component {
                   to={`${base_url}/property`}
                 > */}
 
-                  <NavLink
+                  {/* <NavLink
                   exact
                   activeClassName="active"
                   className="nav-link property-section1"
                   to={`${base_url}/property`}
                 >
                   <p> PROPERTY </p>
-                </NavLink>
+                </NavLink> */}
                   
                   <div className="nav-link property-section2">
                     <button className="property-dropbtn"> <p> PROPERTY </p> </button> 
                     <div className="property-dropdown-content">
-                    <NavLink  activeClassName="active" exact to={`${base_url}/property`}> All </NavLink>
+                   
                     <NavLink activeClassName="active" exact  to={`${base_url}/apartment`}> Apartment </NavLink>
                     <NavLink  activeClassName="active" exact to={`${base_url}/house`}> House </NavLink>
                    
