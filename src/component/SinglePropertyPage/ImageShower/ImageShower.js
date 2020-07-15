@@ -9,7 +9,7 @@ import { info } from './ImageShowerInfo';
 export default function ImageShower() {
 
     const [currentImage, setcurImage] = useState({
-        image: 'land1.jpg',
+        image: 'land3.jpg',
         id:1
     });
 

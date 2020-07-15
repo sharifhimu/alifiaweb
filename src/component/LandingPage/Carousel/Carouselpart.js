@@ -30,7 +30,7 @@ export default function Carouselpart(  ) {
                      <div className="dropdown"> 
                      <button className="dropbtn">Explore Properties <IoIosArrowDown className="fa" /> </button>
                      <div className="dropdown-content">
-                         <a href={`${base_url}/singleproperty`} >Townhouse Villa</a>
+                         {/* <a href={`${base_url}/singleproperty`} >Townhouse Villa</a> */}
                          <a href={`${base_url}/singleproperty`} >Keraniganj Model Town</a>
                          
                      </div>
