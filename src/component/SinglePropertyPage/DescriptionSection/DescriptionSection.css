@@ -43,7 +43,7 @@
     display: flex;
     align-items: center;
     color: #ccbb8f;
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 2.5rem 0 3rem 0;
 }
 
 .location-contact p{
@@ -64,7 +64,7 @@
 
 .download-pdf a{
     display: flex;
-    align-items: center;
+    align-items: center; 
     text-decoration:none ;
     color: white;
     background-color: #ccbb8f;

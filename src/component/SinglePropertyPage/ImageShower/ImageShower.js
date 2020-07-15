@@ -9,7 +9,7 @@ import { info } from './ImageShowerInfo';
 export default function ImageShower() {
 
     const [currentImage, setcurImage] = useState({
-        image:"bg3.png",
+        image: 'land1.jpg',
         id:1
     });
 
@@ -38,7 +38,7 @@ export default function ImageShower() {
 
             <>
                 <div className="relative ">
-                    {currentImage && (<img className="large-img" id="currentImg" src={require(`../../../image/${currentImage.image}`)} alt="large" />)}
+                    {currentImage && (<img className="large-img" id="currentImg" src={require(`../../../image/card/land/${currentImage.image}`)} alt="large" />)}
                 </div>
 
                 <div className="img-template-bg" >

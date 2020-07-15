@@ -1,7 +1,7 @@
 
-import bg3 from '../../../image/bg3.png';
-import bg2 from '../../../image/bg2.png';
-import bg from '../../../image/bg.png';
+import bg3 from '../../../image/card/land/land1.jpg';
+import bg2 from '../../../image/card/land/land2.jpg';
+import bg from '../../../image/card/land/land3.jpg';
 
 export const info = [
 
@@ -11,21 +11,21 @@ export const info = [
 
     {
         img: bg3,
-        imgname: 'bg3.png' ,
+        imgname: 'land1.jpg',
         id: 1
       
     },
     {
         img: bg2,
-        imgname:'bg2.png',
+        imgname:'land2.jpg',
         id: 2
     },
     {
         img: bg,
-        imgname:'bg.png',
+        imgname:'land3.jpg',
         id: 3
       
     },
-  
+
 
 ]
