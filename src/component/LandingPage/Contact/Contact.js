@@ -24,12 +24,12 @@ export default function Contact() {
 
                         <li className="infolist" > 
                         <i className="fa fa-envelope contacticon" ></i> 
-                        <p className="contacttext" > Contact@alifiaproperties.com </p> 
+                        <p className="contacttext" > contact@alifiaproperties.com </p> 
                         </li>
 
                         <li className="infolist" > 
                         <i className="fa fa-phone contacticon" ></i> 
-                        <p className="contacttext"> +88 02 1234 123 - 126 </p> 
+                        <p className="contacttext"> +880 197 7085 851 </p> 
                         </li>
 
                         <li className="infolist" > 
