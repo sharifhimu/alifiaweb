@@ -1,6 +1,6 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
-import logo from "../../../image/Union.png";
+import logo from "../../../image/Alifia-Logo.png";
 import { NavLink } from "react-router-dom";
 
 import "./PropertyNavbar.css";
