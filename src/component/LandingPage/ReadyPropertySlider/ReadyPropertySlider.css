@@ -70,7 +70,7 @@
 }
 
 .singlecard:hover + .borderdown{
-    border:2px solid #FFE9B1 !important;
+    border:2px solid#CCBB8F !important;
     width: 8em;
   
 }

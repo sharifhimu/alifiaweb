@@ -52,20 +52,21 @@
 }
 
 .sendbtn{
-    background-color: #FFE9B1;
-    border: 0;
+    background-color: transparent;
+    border: 2px solid #CCBB8F;;
     font-size: 14px;
     padding: 13px 19px;
     font-family: 'Merriweather', serif;
     letter-spacing: 0.05em;
     font-weight: bold;
-    
+    color: #CCBB8F;
     opacity: 0.75;
     transition: .2s ease;
 }
 
 .sendbtn:hover{
     background-color: #CCBB8F;
+    color: white;
 }
 
 

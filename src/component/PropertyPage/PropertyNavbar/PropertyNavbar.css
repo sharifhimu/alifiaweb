@@ -13,7 +13,7 @@
 }
 
 .nav-link{
-    color: #FFE9B1 !important;
+    color:#CCBB8F !important;
     padding: 12px 15px !important; 
     margin: 0 5rem !important;
     font-family: 'Montserrat', sans-serif !important;
@@ -68,7 +68,7 @@
 
 .property-dropbtn {
     background-color: transparent;
-    color: #FFE9B1;
+    color:#CCBB8F;
     /* padding: 12px 15px !important;  */
     font-size: 15px;
     border: none;

@@ -3,7 +3,7 @@ import {Container,Row, Col} from 'react-bootstrap';
 
 import './AddressSection.css';
 
-import alifia from '../../../image/Union-brown.png';
+import alifia from '../../../image/Alifia-Logo.png';
 import { TiSocialFacebookCircular } from "react-icons/ti";
 import {FaWhatsapp} from "react-icons/fa";
 import { TiSocialTwitterCircular } from "react-icons/ti";

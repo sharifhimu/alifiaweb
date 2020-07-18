@@ -74,7 +74,7 @@
   .selected-text {
     background-color: white;
     padding: 15px 63px 15px 40px;
-    border: 1px solid #ccbb8f;
+    border: 1px solid #CCBB8F;
     font-family: 'Montserrat', sans-serif;
     color: #808080;
     cursor: pointer;
@@ -145,20 +145,21 @@
   }
 
   .searchbtn{
-    background: #FFE9B1;
+    background: transparent;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.05), -5px -5px 10px #FFFFFF;
-    border: 0;
+    border: 2px solid #CCBB8F;;
     font-size: 15px;
     padding: 16px 35px;
     /* font-family: 'Merriweather', serif; */
     font-family: 'Merriweather',serif;
     font-weight: 900;
-    color: rgba(0,0,0,.8);
+    color: #CCBB8F;
     transition: .5s;
   }
 
   .searchbtn:hover{
       background-color: #ccbb8f;
+      color: white;
   }
 
 

@@ -74,7 +74,7 @@
 
 .msgform{
     font-weight: 500;
-    border: 1px solid #FFE9B1;
+    border: 1px solid #CCBB8F;
     box-sizing: border-box;
     /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02), inset 5px 5px 5px rgba(0, 0, 0, 0.05), inset -5px -5px 5px #FFFFFF; */
 
@@ -90,14 +90,15 @@
     background-color: #fff;
     background-clip: padding-box;
     /* border: 1px solid #ced4da; */
-    border-radius: .25rem;
+    border-radius: 0;
     /* transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;     */
     outline: none;
 }
 
 .msgarea{
     width: 100%;
-    border: 1px solid #FFE9B1;
+    border: 1px solid #CCBB8F;
+    border-radius: 0;
     display: block;
     font-weight: 500;
     padding: .375rem 19px;
@@ -112,8 +113,9 @@
 
 
 .sendmsgbtn{
-    background-color: #FFE9B1;
-    border: 0;
+    background-color: transparent;
+    border: 2px solid #CCBB8F;
+    color: #CCBB8F;
     font-size: 14px;
     padding: 13px 19px;
     font-family: 'Merriweather', serif;
@@ -127,6 +129,7 @@
 
 .sendmsgbtn:hover{
     background-color: #CCBB8F;
+    color: white;
 }
 
 
