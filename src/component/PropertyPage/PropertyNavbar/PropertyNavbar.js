@@ -16,7 +16,7 @@ export default class PropertyNavBar extends React.Component {
   componentDidMount() {
     document.addEventListener("scroll", () => {
       const backgroundcolor =
-        window.scrollY < 70 ? "#7b7b7b" : "rgba(48,48,48,.5)";
+        window.scrollY < 70 ? "#7b7b7b" : "rgba(48,48,48,.9)";
 
       this.setState({ navBackground: backgroundcolor });
     });

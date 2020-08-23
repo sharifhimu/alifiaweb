@@ -81,6 +81,7 @@
     padding: 6px 20px;
     /* z-index: 200; */
     transition: .2s;
+    color: white;
 }
 
 .viewdetails:hover {

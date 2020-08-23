@@ -16,7 +16,7 @@ export default class NavBar extends React.Component {
   componentDidMount() {
     document.addEventListener("scroll", () => {
       const backgroundcolor =
-        window.scrollY < 70 ? "transparent" : "rgba(0,0,0,.5)";
+        window.scrollY < 70 ? "transparent" : "rgba(0,0,0,.9)";
 
       this.setState({ navBackground: backgroundcolor });
     });

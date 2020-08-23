@@ -1,13 +1,13 @@
 import React from 'react'
 import { Container, Row, Col,Card, } from 'react-bootstrap';
 // import duplex from '../../../image/duplex.png';
-// import {BsArrowRight} from 'react-icons/bs';
+import {BsArrowRight} from 'react-icons/bs';
 import {MdLocationOn} from 'react-icons/md';
 import {FaVectorSquare} from 'react-icons/fa';
 import './HouseCard.css';
 import {info} from './HouseCardInfo';
 
-// import { base_url } from '../../../../config';
+import { base_url } from '../../../../config';
 
 export default function PropertyCard() {
     return (
@@ -30,7 +30,7 @@ export default function PropertyCard() {
 
                     <Card className="fullcard" > 
 
-                    {/* <a href={`${base_url}/singleproperty`} > */}
+                    <a href={`${base_url}/singleproperty`} >
 
                     <Card.Img className="house-image" key={info[i].img} src={info[i].img} />
                     <Card.ImgOverlay className="propertycard-imgoverlay">
@@ -38,7 +38,7 @@ export default function PropertyCard() {
                     </Card.ImgOverlay>
                    
                     <Card.Body className="cardbelow" >
-                        {/* <Card.Text className="viewdetails"><a href={`${base_url}/singleproperty`} > Click To View Details <BsArrowRight /> </a> </Card.Text> */}
+                        <Card.Text className="viewdetails"><a href={`${base_url}/singleproperty`} > Click To View Details <BsArrowRight /> </a> </Card.Text>
                         
 
                        <div className="propertydetails">
@@ -55,7 +55,7 @@ export default function PropertyCard() {
                         
                     </Card.Body>
 
-                    {/* </a> */}
+                    </a>
 
                     </Card>
                     

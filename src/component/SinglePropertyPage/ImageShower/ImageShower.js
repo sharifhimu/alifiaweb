@@ -31,11 +31,7 @@ export default function ImageShower() {
 
     return (
 
-
-
         <div >
-
-
             <>
                 <div className="relative ">
                     {currentImage && (<img className="large-img" id="currentImg" src={require(`../../../image/card/land/${currentImage.image}`)} alt="large" />)}
@@ -53,9 +49,6 @@ export default function ImageShower() {
 
                                 <Col
                                     className="relative col-padding slide-hover"  key={infoImage.id}>
-
-
-
 
                                     <img className={infoImage.id === currentImage.id ? "active-template template":"template"}
                                         src={infoImage.img}
