@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col,Card, } from 'react-bootstrap';
 // import duplex from '../../../image/duplex.png';
+import {Link} from 'react-router-dom';
 import {BsArrowRight} from 'react-icons/bs';
 import {MdLocationOn} from 'react-icons/md';
 import {FaVectorSquare} from 'react-icons/fa';
@@ -30,7 +31,7 @@ export default function PropertyCard() {
 
                     <Card className="fullcard" > 
 
-                    <a href={`${base_url}/singleproperty`} >
+                    <Link to={`${base_url}/singleproperty`} >
 
                     <Card.Img className="land-image" key={info[i].img} src={info[i].img} />
                     <Card.ImgOverlay className="propertycard-imgoverlay">
@@ -49,7 +50,7 @@ export default function PropertyCard() {
                         
                     </Card.Body>
 
-                    </a>
+                    </Link>
 
                     </Card>
                     

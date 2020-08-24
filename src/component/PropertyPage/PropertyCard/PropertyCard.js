@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Row, Col,Card, } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 // import duplex from '../../../image/duplex.png';
 import {BsArrowRight} from 'react-icons/bs';
 import {MdLocationOn} from 'react-icons/md';
@@ -30,7 +31,7 @@ export default function PropertyCard() {
 
                     <Card className="fullcard" > 
 
-                    <a href={`${base_url}/singleproperty`} >
+                    <Link to={`${base_url}/singleproperty`} >
 
                     <Card.Img variant="top" key={info[i].img} src={info[i].img} />
                     <Card.ImgOverlay className="propertycard-imgoverlay">
@@ -49,7 +50,7 @@ export default function PropertyCard() {
                         
                     </Card.Body>
 
-                    </a>
+                    </Link>
 
                     </Card>
                     
