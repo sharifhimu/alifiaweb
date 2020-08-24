@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 import {Container } from 'react-bootstrap';
 import './Carouselpart.css';
 import {IoIosArrowDown} from 'react-icons/io';
@@ -31,8 +32,9 @@ export default function Carouselpart(  ) {
                      <button className="dropbtn">Explore Properties <IoIosArrowDown className="fa" /> </button>
                      <div className="dropdown-content">
                          {/* <a href={`${base_url}/singleproperty`} >Townhouse Villa</a> */}
-                         <a href={`${base_url}/singleproperty`} >Keraniganj Model Town</a>
-                         
+                         {/* <a href={`${base_url}/singleproperty`} >Keraniganj Model Town</a> */}
+                         <Link to={`${base_url}/singleproperty`}>Keraniganj Model Town</Link>
+
                      </div>
                      </div>
      
